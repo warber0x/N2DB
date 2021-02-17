@@ -1,0 +1,3 @@
+[[92mx-frame[0m:[1;92maspgeneric[0m] [[94mhttp[0m] [[34mtest[0m] https://website.com/
+[[92mtech-detect[0m:[1;92mms-iis[0m] [[94mhttp[0m] [[34minfo[0m] https://website2.com/webticket/webticketservice.svcabs/
+[[92mbasic-auth-detection[0m] [[94mhttp[0m] [[34minfo[0m] https://website3.com/webticket/webticketservice.svcabs/
