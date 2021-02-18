@@ -18,7 +18,9 @@ These are the features that N3DB have:
 
 ## Configuration
 - Download the N2DB: 
-```git clone https://github.com/warber0x/N2DB```
+```
+git clone https://github.com/warber0x/N2DB
+```
 
 - In the same folder where n2db.py resides, create a sqlite3 database and quit:
 ```
@@ -29,7 +31,9 @@ These are the features that N3DB have:
   => A database "YOURDB" should now be present in the same folder.
 
 - Execute N2DB: 
-```python n2db.py```
+```
+python n2db.py
+```
   =>  The first time execution will create a config file in `~/.config/n2db` named `n2db.conf`
 
 - Go to the config folder and open the file using your prefered text editor:
@@ -40,10 +44,12 @@ database_path = FULL_PATH_TO_THE_DB
 table_name = CHOOSE_A_TABLE_NAME_TO_CREATE
 database_name = YOURDB
 ```
-- As shown above, put the name of the database you created in **database_name**, fill the database with a full path in **database_path** and choose a name for your table.
+- As shown above, put the name of the database you created in "**database_name**", fill the "**database_path**" with the location of your database freshly created. Finally, choose a name for your table.
 - Save the file and try to execute the program by piping the  nuclei output sample to N2DB:
 
-```cat nuclei.txt | python n2db.py ```
+```
+cat nuclei.txt | python n2db.py 
+```
 
 - The output should be visible in the terminal as well as the data is now stored in the database.
 
