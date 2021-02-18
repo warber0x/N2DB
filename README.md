@@ -51,9 +51,9 @@ database_name = YOURDB
 Sometimes we need to filter the output shown in our terminal without limiting our nuclei scanning. That's why I coded some useful filtering features to show just what you desire :)
 
 ### Available filters options:
-*--filter-vuln* : Filter records by vulnerability type. ex: `cat nuclei.txt | ./n2db.py --filter-vuln x-frame`
-*--filter-svr*  : Filter records by severity ex: info, low, medium, high
-*--filter-proto*: Filter records by protocol type ex: http, dns, smb ...
+- *--filter-vuln* : Filter records by vulnerability type. ex: `cat nuclei.txt | ./n2db.py --filter-vuln x-frame`
+- *--filter-svr*  : Filter records by severity ex: info, low, medium, high
+- *--filter-proto*: Filter records by protocol type ex: http, dns, smb ...
 
 Let's imagine we do not want to show records contaning the keywords "x-frame" and "tech", all we have to do is:
 ```
