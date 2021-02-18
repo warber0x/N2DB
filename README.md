@@ -74,7 +74,8 @@ cat nuclei.txt | ./n2db.py --filter-svr "info, low"
 ``` 
 
 ## Screenshots:
-
+![Example1](https://github.com/warber0x/N2DB/blob/main/screenshots/Example1.PNG)
+![Example2](https://github.com/warber0x/N2DB/blob/main/screenshots/Example2.PNG)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
